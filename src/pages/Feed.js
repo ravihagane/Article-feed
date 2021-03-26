@@ -12,7 +12,7 @@ export default function Feed() {
         link="https://www.mysticalblog.net/post/untruth-to-truth"
       />
       <Article
-        title="Rise of Virat"
+        title="Rise of Virat kohli"
         src="virat.jpg"
         category="Sports"
         description=" From a flamboyent delhi kid to a most popular athlete in the world..."
