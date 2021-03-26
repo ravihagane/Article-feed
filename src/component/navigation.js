@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 export default function navigation() {
@@ -50,10 +50,11 @@ export default function navigation() {
   }
   return (
     <nav>
-      <FontAwesomeIcon
-        icon={faBars}
+      <img
+        src="menu.svg"
         onClick={() => setShowMenu(!showMenu)}
-        className=" cursor-pointer"
+        className=" cursor-pointer w-5 h-5 font-extrabold"
+        alt="menu"
       />
 
       {menuMask}
